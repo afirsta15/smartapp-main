@@ -1,0 +1,12 @@
+{
+    "API": "http://localhost:8080/api/",
+    "APIToken": "http://localhost:8080/auth/login",
+    "live": "http://localhost:8080/",
+    "test": "http://localhost:8080"
+}
+{
+    "API": "https://api.dniztechno.com/api/",
+    "APIToken": "https://api.dniztechno.com/auth/login",
+    "live": "https://api.dniztechno.com/",
+    "test": "http://localhost:8000"
+}
