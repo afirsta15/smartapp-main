@@ -218,46 +218,6 @@ let __VLS_86!: __VLS_NormalizeEmits<typeof __VLS_85.emit>;
 }
 (__VLS_54.slots!).default;
 }
-(__VLS_ctx.
-
-
-
-
-
-
-
-
-
-
-
-
-            /*     <div class="col-3 mt-3">
-                    <div class="b-primary pb-3 text-center clickable" @click="navigateTo('dashboard/return', true)">
-                      <div class="container mt-4 text-primary">
-                        <h1>
-                          <b-icon icon="file-earmark-text-fill" />
-                        </h1>
-                        <h6 class="mt-3">
-                          <strong>
-                            Daftar Retur
-                          </strong>
-                        </h6>
-                      </div>
-                    </div>
-                  </div> */
-
-
-
-
-
-
-
-
-
-
-
-
-            );
 {
 const __VLS_87 = ({} as __VLS_IntrinsicElements)["div"];
 const __VLS_88 = __VLS_elementAsFunctionalComponent(__VLS_87);
