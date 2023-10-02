@@ -30,7 +30,6 @@
           </div>
         </div>
       </div>
-      
       <div class="col-3 mt-3">
         <div class="b-primary pb-3 text-center clickable" @click="navigateTo('dashboard/return', true)">
           <div class="container mt-4 text-primary">
@@ -44,7 +43,7 @@
             </h6>
           </div>
         </div>
-      </div>
+      </div> 
       <div class="col-3 mt-3">
         <div class="b-primary pb-3 text-center clickable" @click="onCreateOutbound">
           <div class="container mt-4 text-primary">
@@ -118,18 +117,22 @@
         </div>
       </div>
     </div>
-    <dev />
+    <Dev />
   </div>
 </template>
 
 <script>
-import dev from '../../components/general/dev.vue'
-import topbar from '~/components/general/topbar.vue'
+
+
+import Dev from './Dev.vue';
+import Topbar from './Topbar.vue';
+
+
 export default {
   name: 'Dashboard',
   components: {
-    topbar,
-    dev
+    Topbar,
+    Dev
   },
   data () {
     return {
